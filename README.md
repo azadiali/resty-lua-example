@@ -23,6 +23,6 @@ sudo apt-get install libpcre3-dev 	libssl-dev perl make build-essential curl
 
 #send request 
 
-curl -i --user-agent foo localhost -L
+curl -i --user-agent foo localhost/site/ -L
 
-curl -i --user-agent bar localhost -L
+curl -i --user-agent bar localhost/site/ -L
