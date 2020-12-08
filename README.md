@@ -12,11 +12,17 @@ sudo apt-get install libpcre3-dev 	libssl-dev perl make build-essential curl
 
 #replace nginx.conf
 
+
 #in redis 
+
 ./redis-cli
+
    redis> set foo apache.org
+
    redis> set bar nginx.org
 
 #send request 
+
 curl -i --user-agent foo localhost -L
+
 curl -i --user-agent bar localhost -L
